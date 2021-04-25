@@ -1,0 +1,104 @@
+.topnav{
+    background-color: #39334b;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: right;
+    display: flex;
+    color: antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.topnav a:hover{
+    background-color: rgb(238, 198, 198);
+    color: azure; 
+    font-size: 14px;
+}
+
+.topnav a.active {
+    background-color: #4caf50;
+    color: white;
+}
+
+.topnav.icon{
+    display: none;
+}
+
+/* Footer styles */
+.footer{
+    background: #4caf50 ;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: rgb(247, 247, 247);
+   
+
+}
+/*text in the home page*/
+.text1{
+    display: flex;
+     font-size: 20px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: lawngreen;
+     position: absolute;
+     right: 0px;
+     width: 539px;
+     top: 40%;
+     padding: 10px;
+}
+
+
+/*freelancer image in the homepage*/
+
+/*.image {
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    margin-top: 16%;
+  }
+
+  /*dog gif*/
+  .dog{
+      width: 30%;
+      margin-left: 40px;
+      margin-right: auto;
+      margin-top: 60px;
+  }
+
+ 
+
+.box{
+        width: 10px;
+        height: 100px;
+        background-color: red;
+        position: relative;
+        animation-name: example;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+       
+      }
+      
+      @keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:0px; top:50px;}
+        50%  {background-color:blue; left:0px; top:0px;}
+        75%  {background-color:green; left:0px; top:50px;}
+        100% {background-color:red; left:0px; top:0px;}
+      }
+
+      .text2{
+        margin-bottom: 0px;
+        display: flex;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: lawngreen;
+        position: absolute;
+        right: 0px;
+        width: 300px;
+        top: 80%;
+        padding: 10px;
+    }
